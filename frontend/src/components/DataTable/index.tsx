@@ -2,7 +2,7 @@ import axios from "axios";
 import Pagination from "components/Pagination";
 import { useEffect, useState } from "react";
 import { SalePage } from "types/sale";
-import { formatLocalDate } from "utils/format";
+import { formatCurrency, formatLocalDate } from "utils/format";
 import { BASE_URL } from "utils/request";
 
 const DataTable = () => {
@@ -48,7 +48,7 @@ const DataTable = () => {
                                 <td>{item.seller.name}</td>
                                 <td>{item.visited}</td>
                                 <td>{item.deals}</td>
-                                <td>{item.amount.toFixed(2)}</td>
+                                <td>{formatCurrency(item.amount)}</td>
                             </tr>
                         ))}
                     </tbody>
