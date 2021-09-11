@@ -50,6 +50,7 @@ O DsVendas está disponível [aqui](https://dsvendas-pablorobert.netlify.app/).
 <div align="center">
 <h3>
 💻👨‍💻 Desenvolvido por Pablo Robert na Semana Dev Superior 4.0 👨‍💻💻
-Template do [readme](https://github.com/davimateus1)
 </h3>
+<br>
+Template do [readme](https://github.com/davimateus1)
 </div>
