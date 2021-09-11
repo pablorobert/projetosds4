@@ -14,16 +14,16 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
--- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
--- [ReactJS](https://reactjs.org)
--- [Bootstrap](https://getbootstrap.com)
--- [TypeScript](https://www.typescriptlang.org/)
--- [SpringBoot](https://spring.io/projects/spring-boot)
--- [Thunderclient](https://www.thunderclient.io/)
--- [PostegreSQL](https://www.postgresql.org)
--- [Java](https://www.java.com/pt-BR/)
--- [Netlify](https://www.netlify.com)
--- [Heroku](https://dashboard.heroku.com/apps)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
+- [ReactJS](https://reactjs.org)
+- [Bootstrap](https://getbootstrap.com)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SpringBoot](https://spring.io/projects/spring-boot)
+- [Thunderclient](https://www.thunderclient.io/)
+- [PostegreSQL](https://www.postgresql.org)
+- [Java](https://www.java.com/pt-BR/)
+- [Netlify](https://www.netlify.com)
+- [Heroku](https://dashboard.heroku.com/apps)
 
 <br/>
 
@@ -50,5 +50,6 @@ O DsVendas está disponível [aqui](https://dsvendas-pablorobert.netlify.app/).
 <div align="center">
 <h3>
 💻👨‍💻 Desenvolvido por Pablo Robert na Semana Dev Superior 4.0 👨‍💻💻
+Template do [readme](https://github.com/davimateus1)
 </h3>
 </div>
