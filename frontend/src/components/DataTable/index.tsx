@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { SalePage } from "types/sale";
 import { formatCurrency, formatLocalDate } from "utils/format";
 import { BASE_URL } from "utils/request";
+import './index.css';
 
 const DataTable = () => {
     const [activePage, setActivePage] = useState(0);
@@ -17,7 +18,7 @@ const DataTable = () => {
     });
 
     useEffect(() => {
-        axios.get(`${BASE_URL}/sales?page=${activePage}&size=20&sorte=date,desc`)
+        axios.get(`${BASE_URL}/sales?page=${activePage}&size=20&sort=date,desc`)
             .then(response => {
                 setPage(response.data);
             })
@@ -43,7 +44,7 @@ const DataTable = () => {
                     </thead>
                     <tbody>
                         {page.content?.map(item => (
-                            <tr key={item.id}>
+                            <tr key={item.id} className="dados">
                                 <td>{formatLocalDate(item.date, "dd/MM/yyyy")}</td>
                                 <td>{item.seller.name}</td>
                                 <td>{item.visited}</td>
